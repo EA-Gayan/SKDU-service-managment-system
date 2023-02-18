@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE services SYSTEM "report.dtd">
+<?xml-model href="report.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<services>
+  <service>
+    <title>MI</title>
+    <description/>
+    <open_time>00:00:00</open_time>
+    <closed_time>23:59:00</closed_time>
+    <category_id>16</category_id>
+    <featured>Yes</featured>
+    <active>Yes</active>
+  </service>
+  <service>
+    <title>Canteen</title>
+    <description/>
+    <open_time>06:00:00</open_time>
+    <closed_time>20:00:00</closed_time>
+    <category_id>22</category_id>
+    <featured>Yes</featured>
+    <active>Yes</active>
+  </service>
+</services>

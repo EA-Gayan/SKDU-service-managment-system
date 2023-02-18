@@ -1,0 +1,9 @@
+<!ELEMENT services (service+)>
+<!ELEMENT service (title,description,open_time,closed_time,category_id,featured,active)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT open_time (#PCDATA)>
+<!ELEMENT closed_time (#PCDATA)>
+<!ELEMENT category_id (#PCDATA)>
+<!ELEMENT featured (#PCDATA)>
+<!ELEMENT active (#PCDATA)>

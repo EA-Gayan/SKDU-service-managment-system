@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="services">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element  name="service" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="description" type="xs:string"/>
+              <xs:element name="open_time" type="xs:time" />
+              <xs:element name="closed_time" type="xs:time" />
+              <xs:element name="category_id" type="xs:unsignedByte" />
+              <xs:element name="featured" type="xs:string" />
+              <xs:element name="active" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
